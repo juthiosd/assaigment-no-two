@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.color-one{
+    color: #FFFFFF;
+}
+.color-two{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.bg-dark{
+    background-color: rgba(17, 17, 17, 1);
+
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.fit{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2rem;
+    color: #E6533C;
+}
+.btn-primary{
+    background-color:#E6533C;
+    border-radius: 10px;
+    height: 30px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+.btn-two{
+    
+    border-radius: 10px;
+    background-color: black;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    gap: 100px;
+    
+}
+.banner-content{
+    max-width: 500px;
+    margin-top: 190px;
+    margin-left: 190px;
+
+}
+
+/*.first-image{
+    width: 300px;
+    height: 580px;
+}*/
+/*extra-button releted kaj*/
+
+
+.extra-btn{
+    background-color: rgba(39, 37, 37, 0.54);
+    padding: 15px ;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 8px;
+    border: none;
+
+}
+#vd-design{
+    margin-left: -380px;
+    margin-top: 100px;
+
+}
+#vd-tutorial{
+    font-size: 2rem;
+    font-weight: 400px;
+
+}
+#work-design{
+    margin-top: 260px;
+    margin-left: -100px;
+
+}
+#work-vd{
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+/*habits-reletade style*/
+.habits{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.section-container{
+    width: 230px;
+    gap: 30px;
+    margin-left: 280px;
+}
+.habit-img{
+    border-radius: 100px;
+}
+/*card-releted style*/
+.card{
+    
+    border-radius: 15px;
+    background-color: rgba(34, 34, 34, 1);
+    box-shadow: 0 4px 30px 0;
+    gap: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+    justify-content: center;
+}
+.card-description{
+    padding: 40px;
+
+}
+.card-img{
+    width: 280px;
+    height: 190px;
+    padding: 30px;
+    border-radius: 18px;
+    
+
+
+}
