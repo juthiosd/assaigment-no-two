@@ -85,9 +85,6 @@
 
 }
 
-/*extra-button releted kaj*/
-
-
 .extra-btn{
     background-color: rgba(39, 37, 37, 0.54);
     padding: 15px ;
@@ -160,6 +157,8 @@ main > section{
     border-radius: 18px;
 }
 /*from releted style*/
+
+
 .from-description{
     text-align: center;
 
@@ -169,20 +168,29 @@ main > section{
     justify-content: center;
     padding: 30px;
 }
-.table-design,.tr,.td,.th{
-    
-        border: 1px solid black;
-        
+.table-design{
+    border-collapse: collapse;
+    width: 100%;
 }
-.calculator-BMI{
-    
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+
 }
 
+.calculator-BMI{
+    justify-content: start;
+}
 
 .BMI-container{
-    
+    gap: 15px;
     border-radius: 8px;
     padding: 19px;
+    
+    
+}
+#activitity-factor{
+    width: 80%;
 }
 
 /*footer releted desig*/
@@ -200,14 +208,16 @@ main > section{
 }
 .list-item{
     list-style: none;
-    gap: 100px;
 }
 
 /*mobile responsive*/
 @media screen and (max-width:576px){
-    .navbar,.banner,.habits,.section-container,.from-description,
+    .navbar,.banner,.habits,
+    .section-container,
+    .from-description,
     .from-container,
-    .calculator-BMI{
+    .calculator-BMI,
+    .footer-description{
         flex-direction: column;
 
     }
@@ -223,17 +233,20 @@ main > section{
         margin-left: 20px;
        
     }
-    .card-description{
-        flex-direction: column;
-
-    }
     .from-container{
-        gap: none;
+        gap: 20px;
+    }
+    #activitity-factor{
+        width: 100%;
+    }
+    
+    .footer-description{
+        gap:10px ;
+        margin-left: 10px;
+        text-align: start;
     }
     .footer-container{
-
-        flex-direction: column;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 }
 /*medium device responsive*/
